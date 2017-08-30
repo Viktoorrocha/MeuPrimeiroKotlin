@@ -7,18 +7,17 @@
     tools:context="br.com.meuprimeirokotlin.meuprimeirokotlin.MainActivity">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textoExibicao"
         android:layout_width="wrap_content"
         android:layout_height="36dp"
         android:text="Clique no Botão"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.074"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.054"
-        tools:layout_editor_absoluteY="31dp" />
+        app:layout_constraintVertical_bias="0.054" />
 
     <Button
         android:id="@+id/button"
@@ -26,9 +25,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="18dp"
+        android:onClick="cliqueBotao"
         android:text="Jogar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textoExibicao"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="64dp" />
 </android.support.constraint.ConstraintLayout>
